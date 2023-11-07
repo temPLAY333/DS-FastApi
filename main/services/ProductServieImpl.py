@@ -1,7 +1,7 @@
-from . import BaseServiceImpl
+from . import ProductService
 from ..respositories import ProductRepo
 
-class BaseServiceImpl(BaseServiceImpl):
+class ProductServiceImpl(ProductService):
     def __init__(self):
         self.repository = ProductRepo()
     

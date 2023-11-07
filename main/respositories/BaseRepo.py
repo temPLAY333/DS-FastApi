@@ -1,5 +1,5 @@
 from abc import ABCMeta
 from ..entities import BaseTable
 
-class BaseRepo(BaseTable, metaclass=ABCMeta):
+class BaseRepo(BaseTable):
     pass
