@@ -1,5 +1,5 @@
 from . import BaseService
-from ..entities import BaseRepo
+from main.respositories import BaseRepo
 
 class BaseServiceImpl(BaseService):
     def __init__(self):
