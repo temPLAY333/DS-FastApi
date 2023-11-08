@@ -6,7 +6,6 @@ RUN git clone https://github.com/temPLAY333/DS-FastApi.git
 
 WORKDIR /DS-FastApi
 COPY run.py /run.py
-RUN pip install -r requirements.txt \
-    && 
+RUN pip install -r requirements.txt 
 
 ENTRYPOINT ["/run.py"]
